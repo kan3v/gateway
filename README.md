@@ -5,8 +5,8 @@ Go to src/main/resources/application.properties and enter MySQL database IP and 
 Gateway:
 HTTP POST REQUEST
 http://127.0.0.1:8080/gateway/save
-sample JSON body
 
+sample JSON body
 {
   "name":"test",
   "serialNumber":"testSerial",
