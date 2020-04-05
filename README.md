@@ -6,6 +6,7 @@ Gateway:
 HTTP POST REQUEST
 http://127.0.0.1:8080/gateway/save
 sample JSON body
+
 {
   "name":"test",
   "serialNumber":"testSerial",
@@ -27,6 +28,7 @@ http://127.0.0.1:8080/gateway/find?serialNumber=testSerial
 Device:
 HTTP POST REQUEST
 http://127.0.0.1:8080/device/save
+
 sample JSON body
 {
   "uid":"12345",
