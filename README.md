@@ -18,7 +18,9 @@ http://127.0.0.1:8080/gateway/findAll
 
 HTTP GET REQUEST
 http://127.0.0.1:8080/gateway/find?id=1
+
 http://127.0.0.1:8080/gateway/find?id=1&serialNumber=testSerial
+
 http://127.0.0.1:8080/gateway/find?serialNumber=testSerial
 
 
