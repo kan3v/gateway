@@ -4,7 +4,7 @@ Go to src/main/resources/application.properties and enter MySQL database IP and 
 
 Gateway:
 HTTP POST REQUEST
-http://127.0.0.18080/gateway/save
+http://127.0.0.1:8080/gateway/save
 sample JSON body
 {
   "name":"test",
@@ -24,7 +24,7 @@ http://127.0.0.1:8080/gateway/find?serialNumber=testSerial
 
 Device:
 HTTP POST REQUEST
-http://127.0.0.18080/device/save
+http://127.0.0.1:8080/device/save
 sample JSON body
 {
   "uid":"12345",
@@ -34,4 +34,4 @@ sample JSON body
 }
 
 HTTP DELETE REQUEST
-http://127.0.0.18080/device/delete/1
+http://127.0.0.1:8080/device/delete/1
